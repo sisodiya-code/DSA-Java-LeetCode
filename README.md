@@ -101,8 +101,9 @@ class Solution {
 }
 ```
 
-**Time Complexity:** O(n) — We traverse the array once, and HashMap operations (`containsKey`, `get`, `put`) take O(1) on average.
 
-**Space Complexity:** O(n) — In the worst case, we store all `n` elements in the HashMap before finding a match.
+**Time Complexity:* O(n) — We traverse the array once, and HashMap operations (`containsKey`, `get`, `put`) take O(1) on average.
+
+**Space Complexity:* O(n) — In the worst case, we store all `n` elements in the HashMap before finding a match.
 
 **Tradeoff:** This approach trades extra space (O(n)) for significantly better time complexity (O(n) instead of O(n²)), making it the preferred solution for large inputs.
