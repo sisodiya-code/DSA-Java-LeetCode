@@ -50,8 +50,7 @@ class Solution {
 - `j = 1` → `nums[1] = 7`
 - Check: `nums[j] == target - nums[i]` → `7 == 9 - 2` → `7 == 7` → **true**
 - Return `[0, 1]`
-
-**Output:** `[0, 1]`
+**Output:**`[0, 1]`
 
 Explanation: `nums[0] + nums[1] = 2 + 7 = 9 = target`, so indices `0` and `1` are returned.
 
